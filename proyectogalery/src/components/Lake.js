@@ -1,10 +1,10 @@
 import React from 'react'
-import Lake2 from '../images/lake.jpg'
+import Lake2 from '../images/lake.png'
 
 const Lake = () => {
     return (
-        <div>
-            <img src={Lake2} alt="" />
+        <div className="container">
+            <img src={Lake2} alt="" className="imagen" />
         </div>
     )
 }

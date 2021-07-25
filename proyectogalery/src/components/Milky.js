@@ -1,10 +1,10 @@
 import React from 'react'
-import Milky2 from '../images/milky.jpg'
+import Milky2 from '../images/milky.png'
 
 const Milky = () => {
     return (
-        <div>
-            <img src={Milky2} alt="" />
+        <div className="container">
+            <img src={Milky2} alt="" className="imagen" />
         </div>
     )
 }

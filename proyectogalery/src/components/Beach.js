@@ -1,10 +1,10 @@
 import React from 'react'
-import Beach2 from '../images/beach.jpg'
+import Beach2 from '../images/beach.png'
 
 const Beach = () => {
     return (
-        <div>
-            <img src={Beach2} alt="" />
+        <div className="container">
+            <img src={Beach2} alt="" className="imagen" />
         </div>
     )
 }
