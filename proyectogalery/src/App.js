@@ -7,6 +7,7 @@ import Forest from './components/Forest';
 import Jungle from './components/Jungle';
 import Lake from './components/Lake';
 import Milky from './components/Milky';
+import Navegacion from './components/Navegacion';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <Route path="/Jungle" component={Jungle} />
       <Route path="/Lake" component={Lake} />
       <Route path="/Milky" component={Milky} />
-      
+
+      <Navegacion/>
+
     </Router>
   );
 }
