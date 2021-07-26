@@ -1,0 +1,2 @@
+Recordar cargar npm:
+en la carpeta del curso ejecutar en consola: npm start
